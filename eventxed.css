@@ -596,7 +596,8 @@ nav {
 footer { background: var(--navy-deep); color: rgba(255, 255, 255, 0.6); padding: 64px 28px 30px; }
 .fi { max-width: 1300px; margin: 0 auto; }
 .fgrid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 44px; margin-bottom: 46px; }
-.fbrand img { height: 28px; margin-bottom: 15px; display: block; }
+.fbrand {display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
+.fbrand img { height: 100px; margin-bottom: 0px; display: block; }
 .fbrand p { font-size: 0.84rem; color: rgba(255, 255, 255, 0.38); line-height: 1.78; max-width: 240px; margin-bottom: 18px; }
 .fsocs { display: flex; gap: 7px; }
 .fsoc { width: 33px; height: 33px; border-radius: var(--rs); background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.08); display: flex; align-items: center; justify-content: center; cursor: pointer; transition: background var(--t); color: rgba(255, 255, 255, 0.42); }
@@ -606,7 +607,7 @@ footer { background: var(--navy-deep); color: rgba(255, 255, 255, 0.6); padding:
 .fcol a:hover { color: rgba(255, 255, 255, 0.78); }
 .fbot { border-top: 1px solid rgba(255, 255, 255, 0.06); padding-top: 20px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
 .fbot p { font-size: 0.78rem; color: rgba(255, 255, 255, 0.26); }
-.ftag { font-family: 'Syne', sans-serif; font-size: 0.7rem; color: rgba(255, 255, 255, 0.16); letter-spacing: 0.1em; text-transform: uppercase; }
+.ftag { font-family: 'Syne', sans-serif; font-size: 0.7rem; color: rgba(255, 255, 255, 0.16); letter-spacing: 0.1em; text-transform: uppercase; display: block; margin-top: 8px;}
 
 /* MOBILE NAV */
 .mob-nav { display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 999; background: var(--surface); border-top: 1px solid var(--border); padding: 6px 0 max(6px, env(safe-area-inset-bottom)); }
